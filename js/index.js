@@ -138,7 +138,26 @@ window.onload=function(){
 
 //动效四 信息滚动
 	
+	var area =document.getElementById('bancab');
+    var con1 = document.getElementById('bancabula');
+    var con2 = document.getElementById('bancabulb');
 
+    con2.innerHTML=con1.innerHTML;
+    function scrollUp(){
+    if(area.scrollTop>=con1.offsetHeight){
+        area.scrollTop=0;
+    }else{
+        area.scrollTop++
+    }
+    }                
+    var time = 50;
+    var mytimer=setInterval(scrollUp,time);
+    area.onmouseover=function(){
+        clearInterval(mytimer);
+    }
+    area.onmouseout=function(){
+        mytimer=setInterval(scrollUp,time);
+    }
 
 //动效五 侧边栏
 	
