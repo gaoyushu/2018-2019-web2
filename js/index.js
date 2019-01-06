@@ -138,4 +138,37 @@ window.onload=function(){
 
 //动效四 信息滚动
 	
+
+
+//动效五 侧边栏
+	
+	var beside = document.getElementById("beside").children;
+
+	for(var i=0; i<beside.length; i++){
+		// beside[i].style.position="absolute";
+		// beside[i].style.top=160*i+"px";
+	}
+
+	for(var i=0; i<beside.length; i++){
+		beside[i].index=i;
+		beside[i].onmouseover=function(){
+			for(var j=0; j<beside.length; j++){
+				if(this.index!=j){
+					this.style.right="-80px";
+				}
+			}
+			this.style.right="80px";
+			// var timer = setInterval(function () {
+			// 	if(this.style.right=="80px")
+			// 		clearInterval(timer);
+			// 	else{
+			// 		this.style.opacity = 1;
+			// 		this.style.right="80px";
+			// 	}
+			// },3000);		
+		}
+		beside[i].onmouseout=function(){
+			this.style.right="0";
+		}
+	}
 }

@@ -84,42 +84,42 @@ p{
 .topimg1{
 	width: 19px;
 	height: 19px;
-	background: url("img/common_min.png");
+	background: url("../img/common_min.png");
 	background-position: 0 -31px;
 }
 .topimg2{
 	width: 19px;
 	height: 19px;
-	background: url("img/common_min.png");
+	background: url("../img/common_min.png");
 	background-position: 0 -53px;
 }
 .topimg3{
 	width: 19px;
 	height: 19px;
-	background: url("img/common_min.png");
+	background: url("../img/common_min.png");
 	background-position: 0 -75px;
 }
 .topimg4{
 	padding-left: 22px
-	background: url("img/common_min.png");
+	background: url("../img/common_min.png");
 	background-repeat: no-repeat;
 	background-position: -2px -113px;
 }
 .topimg5{
 	padding-left: 20px;
-	background: url("img/dingdan.jpg");
+	background: url("../img/dingdan.jpg");
 	background-repeat: no-repeat;
 	background-position: 3px 2.5px;
 }
 .topimg6{
 	padding-left: 20px;
-	background: url("img/phone.png");
+	background: url("../img/phone.png");
 	background-repeat: no-repeat;
 	background-position: 4.5px 0px;
 }
 .topimg7{
 	padding-left: 22px;
-	background: url("img/gouwuche.jpg");
+	background: url("../img/gouwuche.jpg");
 	background-repeat: no-repeat;
 	background-position: 0px 1px;
 }
@@ -132,7 +132,7 @@ p{
 	width: 170px;
 	height: 75px;
 	float: left;
-	background: url("img/logo_03.jpg") no-repeat;
+	background: url("../img/logo_03.jpg") no-repeat;
 	background-position: 
 }
 .topbb{
@@ -175,7 +175,7 @@ p{
 	color: #b1b0af;
 	padding-right: 6px;
 	margin-right: 6px;
-	background: url("img/shuxian.jpg") no-repeat;
+	background: url("../img/shuxian.jpg") no-repeat;
 	background-position: right;
 	cursor: pointer;
 }
@@ -200,7 +200,7 @@ p{
 .topbca div{
 	width: 83px;
 	height: 20px;
-	background: url("img/common_min.png") no-repeat;
+	background: url("../img/common_min.png") no-repeat;
 }
 .topbca p{
 	font-size: 10px;
@@ -398,7 +398,7 @@ p{
 	text-align: center;
 }
 #comb1 li.choose{
-	background: url(img/duigou.png) no-repeat;
+	background: url(../img/duigou.png) no-repeat;
 	background-position: right bottom;
 	border: 1px solid #fe0d4a;
 }
@@ -576,7 +576,7 @@ p{
 }
 .bottomba li{
 	padding: 0 15px;
-	background: url("img/shuxian.jpg") no-repeat;
+	background: url("../img/shuxian.jpg") no-repeat;
 	background-position: right;
 	font-size: 11px;
 	color: #b1b0af;

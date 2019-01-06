@@ -83,42 +83,42 @@ p{
 .topimg1{
 	width: 19px;
 	height: 19px;
-	background: url("img/common_min.png");
+	background: url("../img/common_min.png");
 	background-position: 0 -31px;
 }
 .topimg2{
 	width: 19px;
 	height: 19px;
-	background: url("img/common_min.png");
+	background: url("../img/common_min.png");
 	background-position: 0 -53px;
 }
 .topimg3{
 	width: 19px;
 	height: 19px;
-	background: url("img/common_min.png");
+	background: url("../img/common_min.png");
 	background-position: 0 -75px;
 }
 .topimg4{
 	padding-left: 22px
-	background: url("img/common_min.png");
+	background: url("../img/common_min.png");
 	background-repeat: no-repeat;
 	background-position: -2px -113px;
 }
 .topimg5{
 	padding-left: 20px;
-	background: url("img/dingdan.jpg");
+	background: url("../img/dingdan.jpg");
 	background-repeat: no-repeat;
 	background-position: 3px 2.5px;
 }
 .topimg6{
 	padding-left: 20px;
-	background: url("img/phone.png");
+	background: url("../img/phone.png");
 	background-repeat: no-repeat;
 	background-position: 4.5px 0px;
 }
 .topimg7{
 	padding-left: 22px;
-	background: url("img/gouwuche.jpg");
+	background: url("../img/gouwuche.jpg");
 	background-repeat: no-repeat;
 	background-position: 0px 1px;
 }
@@ -131,7 +131,7 @@ p{
 	width: 170px;
 	height: 75px;
 	float: left;
-	background: url("img/logo_03.jpg") no-repeat;
+	background: url("../img/logo_03.jpg") no-repeat;
 	background-position: 
 }
 .topbb{
@@ -174,7 +174,7 @@ p{
 	color: #b1b0af;
 	padding-right: 6px;
 	margin-right: 6px;
-	background: url("img/shuxian.jpg") no-repeat;
+	background: url("../img/shuxian.jpg") no-repeat;
 	background-position: right;
 	cursor: pointer;
 }
@@ -199,7 +199,7 @@ p{
 .topbca div{
 	width: 83px;
 	height: 20px;
-	background: url("img/common_min.png") no-repeat;
+	background: url("../img/common_min.png") no-repeat;
 }
 .topbca p{
 	font-size: 10px;
@@ -264,6 +264,10 @@ p{
 }
 .topcb li:hover{
 	color: #fe6c00;
+}
+.topcb img{
+	position: absolute;
+	top: 130px;
 }
 
 /*top over*/
@@ -380,7 +384,7 @@ p{
 	left: 20px;
 	cursor: pointer;
 	display: none;
-	background: url("img/btn.gif") no-repeat;
+	background: url("../img/btn.gif") no-repeat;
 	z-index: 999;
 }
 #banright{
@@ -391,7 +395,7 @@ p{
 	right: 0px;
 	cursor: pointer;
 	display: none;
-	background: url("img/btn.gif") no-repeat;
+	background: url("../img/btn.gif") no-repeat;
 	background-position: 0 -60px;
 	z-index: 999;
 }
@@ -439,7 +443,7 @@ p{
 	height: 16px;
 	padding: 13px 15px ;
 	border-bottom: 1px solid #b1b0af;
-	background: url("img/jiantou.jpg") no-repeat;
+	background: url("../img/jiantou.jpg") no-repeat;
 	background-position: 180px center;
 	background-clip: border-box;
 }
@@ -456,6 +460,7 @@ p{
 	width: 210px;
 	height: 317px;
 	border-bottom: 2px solid #b1b0af;
+	overflow: hidden;
 }
 .bancab li{
 	padding: 7px 15px;
@@ -575,7 +580,7 @@ p{
 }
 .bottomba li{
 	padding: 0 15px;
-	background: url("img/shuxian.jpg") no-repeat;
+	background: url("../img/shuxian.jpg") no-repeat;
 	background-position: right;
 	font-size: 11px;
 	color: #b1b0af;
@@ -594,3 +599,74 @@ p{
 	cursor: text;
 }
 /*bottom over*/
+
+/*beside start*/
+#bigbes{
+	position: fixed;
+	top: 100px;
+	right: -80px;
+}
+.beside{
+	width: 123px;
+	margin-left: 20px;
+	position: relative;
+}
+.beside ul{
+	width: 123px;
+}
+.beside li{
+	width: 123px;
+	margin-top: 5px;
+}
+.besidea{
+	width: 123px;
+	height: 105px;
+	background: url("../img/consult-s.png") no-repeat;
+	background-position: -5px 0;
+	position: absolute;
+	top: 0;
+}
+.besidea img{
+	margin-top: 60px;
+}
+.besideb{
+	width: 123px;
+	height: 140px;
+	background: #fd9a6e;
+	position: absolute;
+	top: 110px;
+}
+.besideb img{
+	float: left;
+}
+.besba{
+	width: 63px;
+	height: 60px;
+	padding: 40px 0;
+	float: right;
+	text-align: left;
+}
+.besba p{
+	font-size: 12px;
+	color: #fff;
+}
+.besba button{
+	width: 45px;
+	height: 20px;
+	margin-top: 15px;
+	font-size: 12px;
+	background: #fd9a6e;
+	border: 1px solid #fff;
+}
+.besidec{
+	width: 123px;
+	height: 160px;
+	background: #fd9a6e;
+	position: absolute;
+	top: 255px;
+}
+.besided{
+	position: absolute;
+	top: 420px;
+}
+/*beside over*/
