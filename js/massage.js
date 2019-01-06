@@ -100,8 +100,8 @@ window.onload = function(){
 					comul[j].className="";
 			}
 			this.className="change";
-			img11.src="../img/pp"+(this.index)+".jpeg";
-			Bimg.src="../img/pp"+(this.index)+".jpeg";
+			img11.src="img/pp"+(this.index)+".jpeg";
+			Bimg.src="img/pp"+(this.index)+".jpeg";
 		}
 	}
 
@@ -110,8 +110,8 @@ window.onload = function(){
 			if(comul[i].className=="change" && i!=0){
 				comul[i-1].className="change";
 				comul[i].className="";
-				img11.src="../img/pp"+(i-1)+".jpeg";
-				Bimg.src="../img/pp"+(i-1)+".jpeg";
+				img11.src="img/pp"+(i-1)+".jpeg";
+				Bimg.src="img/pp"+(i-1)+".jpeg";
 			}
 		}
 	}
@@ -121,8 +121,8 @@ window.onload = function(){
 			if(comul[i].className=="change" && i!=comul.length-1){
 				comul[i+1].className="change";
 				comul[i].className="";
-				img11.src="../img/pp"+(i+1)+".jpeg";
-				Bimg.src="../img/pp"+(i+1)+".jpeg";
+				img11.src="img/pp"+(i+1)+".jpeg";
+				Bimg.src="img/pp"+(i+1)+".jpeg";
 			}
 		}
 	}
